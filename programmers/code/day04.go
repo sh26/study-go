@@ -99,11 +99,24 @@ func q120845() {
 // 합성수 찾기
 func q120846() {
 
-	solution := func(n int) int {
+	solution := func(n int) (cnt int) {
 
-		return 0
+		for i := 4; i <= n; i += 2 {
+			cnt++
+		}
+
+		for i := 3; i <= n; i += 2 {
+			for j := 3; j < i; j++ {
+				if i%j == 0 {
+					cnt++
+					break
+				}
+			}
+		}
+
+		return
 	}
 
-	fmt.Println(solution(10)) // 1
-	fmt.Println(solution(15)) // 3
+	fmt.Println(solution(10)) // 5
+	fmt.Println(solution(15)) // 8
 }
