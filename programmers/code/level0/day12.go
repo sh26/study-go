@@ -8,36 +8,6 @@ import (
 	"strings"
 )
 
-// https://school.programmers.co.kr/learn/courses/30/lessons/120847
-// 최댓값 만들기 (1)
-func q120847() {
-
-	solution := func(numbers []int) int {
-		sort.Ints(numbers)
-
-		return numbers[len(numbers)-1] * numbers[len(numbers)-2]
-	}
-
-	fmt.Println(solution([]int{1, 2, 3, 4, 5}))       // 20
-	fmt.Println(solution([]int{0, 31, 24, 10, 1, 9})) // 744
-}
-
-// https://school.programmers.co.kr/learn/courses/30/lessons/120848
-// 팩토리얼
-func q120848() {
-
-	solution := func(n int) int {
-		var fact, i int
-		for fact, i = 1, 1; fact <= n; i++ {
-			fact *= i
-		}
-		return i - 2
-	}
-
-	fmt.Println(solution(3628800)) // 10
-	fmt.Println(solution(7))       // 3
-}
-
 // https://school.programmers.co.kr/learn/courses/30/lessons/120849
 // 모음 제거
 func q120849() {
@@ -132,38 +102,4 @@ func q120852() {
 	fmt.Println(solution(12))  // [2, 3]
 	fmt.Println(solution(17))  // [17]
 	fmt.Println(solution(420)) // [2, 3, 5, 7]
-}
-
-// https://school.programmers.co.kr/learn/courses/30/lessons/120853
-// 컨트롤 제트
-func q120853() {
-
-	solution := func(s string) (sum int) {
-
-		num_list := []int{}
-
-		for _, v := range strings.Split(s, " ") {
-
-			if v == "Z" {
-				if len(num_list) <= 1 {
-					num_list = []int{}
-				} else {
-					num_list = num_list[:len(num_list)-1]
-				}
-			} else {
-				n, _ := strconv.Atoi(v)
-				num_list = append(num_list, n)
-			}
-		}
-
-		for _, v := range num_list {
-			sum += v
-		}
-
-		return
-	}
-
-	fmt.Println(solution("1 2 3 Z Z"))     // 4
-	fmt.Println(solution("10 20 30 Z 40")) // 100
-	fmt.Println(solution("10 Z 20 Z 1"))   // 1
 }

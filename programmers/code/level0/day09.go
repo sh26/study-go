@@ -3,50 +3,8 @@ package code
 import (
 	"bytes"
 	"fmt"
-	"math"
 	"strings"
 )
-
-// https://school.programmers.co.kr/learn/courses/30/lessons/120836
-// 순서쌍의 개수
-func q120836() {
-
-	solution := func(n int) (cnt int) {
-
-		sqrt := math.Sqrt(float64(n))
-		sqrt_round := math.Round(sqrt)
-
-		if sqrt == sqrt_round {
-			if n%int(sqrt) == 0 {
-				cnt++
-			}
-		} else {
-			sqrt += 1
-		}
-
-		for i := 1; i < int(sqrt); i++ {
-			if n%i == 0 {
-				cnt += 2
-			}
-		}
-
-		/*
-			for i := 1; i*i <= n; i++ {
-				if n%i == 0 {
-					cnt += 2
-					if i == n/i {
-						cnt--
-					}
-				}
-			}
-		*/
-
-		return cnt
-	}
-
-	fmt.Println(solution(20))  // 6
-	fmt.Println(solution(100)) // 9answer
-}
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/120837
 // 개미 군단
