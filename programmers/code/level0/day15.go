@@ -10,6 +10,7 @@ import (
 // https://school.programmers.co.kr/learn/courses/30/lessons/120894
 // 영어가 싫어요
 func q120894() {
+
 	solution := func(numbers string) int64 {
 		num, _ := strconv.Atoi(strings.NewReplacer("zero", "0", "one", "1", "two", "2", "three", "3", "four", "4", "five", "5", "six", "6", "seven", "7", "eight", "8", "nine", "9").Replace(numbers))
 		return int64(num)
@@ -22,6 +23,7 @@ func q120894() {
 // https://school.programmers.co.kr/learn/courses/30/lessons/120895
 // 인덱스 바꾸기
 func q120895() {
+
 	solution := func(my_string string, num1 int, num2 int) string {
 		swap := []rune(my_string)
 		swap[num1], swap[num2] = swap[num2], swap[num1]

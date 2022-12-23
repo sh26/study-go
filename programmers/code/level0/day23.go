@@ -4,11 +4,13 @@ import (
 	"fmt"
 	"math"
 	"sort"
+	"strings"
 )
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/120880
 // 특이한 정렬
 func q120880() {
+
 	solution := func(numlist []int, n int) (nearlist []int) {
 
 		sort.Ints(numlist)
@@ -48,6 +50,7 @@ func q120880() {
 // https://school.programmers.co.kr/learn/courses/30/lessons/120882
 // 등수 매기기
 func q120882() {
+
 	solution := func(score ...[]int) (ranks []int) {
 
 		aves := []float64{}
@@ -89,9 +92,30 @@ func q120882() {
 	fmt.Println(solution([]int{80, 70}, []int{70, 80}, []int{30, 50}, []int{90, 100}, []int{100, 90}, []int{100, 100}, []int{10, 30})) // [4, 4, 6, 2, 2, 1, 7]
 }
 
+// https://school.programmers.co.kr/learn/courses/30/lessons/120956
+// 옹알이 (1)
+func q120956() {
+
+	solution := func(babbling []string) (res int) {
+		rep := strings.NewReplacer("aya", "", "ye", "", "woo", "", "ma", "")
+
+		for _, baa := range babbling {
+			if rep.Replace(baa) == "" {
+				res++
+			}
+		}
+
+		return
+	}
+
+	fmt.Println(solution([]string{"aya", "yee", "u", "maa", "wyeoo"}))         // 1
+	fmt.Println(solution([]string{"ayaye", "uuuma", "ye", "yemawoo", "ayaa"})) // 3
+}
+
 // https://school.programmers.co.kr/learn/courses/30/lessons/120883
 // 로그인 성공?
 func q120883() {
+
 	solution := func(id_pw []string, db ...[]string) string {
 
 		for _, user := range db {

@@ -53,6 +53,7 @@ func q120875() {
 // https://school.programmers.co.kr/learn/courses/30/lessons/120876
 // 겹치는 선분의 길이
 func q120876() {
+
 	solution := func(lines ...[]int) (cnt int) {
 
 		elements := make([]int, 201)
@@ -84,6 +85,7 @@ func q120876() {
 // https://school.programmers.co.kr/learn/courses/30/lessons/120878
 // 유한소수 판별하기
 func q120878() {
+
 	solution := func(a int, b int) int {
 
 		gcd := func(n1, n2 int) int {

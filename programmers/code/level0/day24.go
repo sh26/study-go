@@ -9,6 +9,7 @@ import (
 // https://school.programmers.co.kr/learn/courses/30/lessons/120884
 // 치킨 쿠폰
 func q120884() {
+
 	solution := func(chicken int) (answer int) {
 		for chicken >= 10 {
 			answer += chicken / 10
@@ -25,6 +26,7 @@ func q120884() {
 // https://school.programmers.co.kr/learn/courses/30/lessons/120885
 // 이진수 더하기
 func q120885() {
+
 	solution := func(bin1 string, bin2 string) string {
 
 		bin1num, bin2num := func() int64 { tmp, _ := strconv.ParseInt(bin1, 2, 64); return tmp }(), func() int64 { tmp, _ := strconv.ParseInt(bin2, 2, 64); return tmp }()
@@ -39,6 +41,7 @@ func q120885() {
 // https://school.programmers.co.kr/learn/courses/30/lessons/120886
 // A로 B 만들기
 func q120886() {
+
 	solution := func(before string, after string) int {
 		diff := map[rune]int{}
 		for _, val := range before {
@@ -60,6 +63,7 @@ func q120886() {
 // https://school.programmers.co.kr/learn/courses/30/lessons/120887
 // k의 개수
 func q120887() {
+
 	solution := func(i int, j int, k int) (cnt int) {
 		for ; i <= j; i++ {
 			temp := i
