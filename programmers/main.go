@@ -1,7 +1,7 @@
 package main
 
-import code "programmers/code/level0"
+import level0 "programmers/code/level0"
 
 func main() {
-	code.StartLevel0()
+	level0.Answer()
 }

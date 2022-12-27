@@ -1,7 +1,7 @@
 package code
 
 // Start is programmers/code.level0 main function
-func StartLevel0() {
+func Answer() {
 	/* day01.go */
 	// q120802()
 	// q120803()
