@@ -1,3 +1,4 @@
+// https://school.programmers.co.kr/learn/challenges/beginner
 package code
 
 // Answer is programmers/code/level0 main function
