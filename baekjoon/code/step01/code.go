@@ -1,6 +1,7 @@
+// https://www.acmicpc.net/step/1
 package code
 
-// Answer is BaekJoon.com/code/step01 main function
+// Answer is baekjoon/code/step01 main function
 // 입출력과 사칙연산
 func Answer() {
 	// 01. Hello World

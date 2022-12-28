@@ -1,0 +1,15 @@
+// https://www.acmicpc.net/step/2
+package code
+
+// Answer is baekjoon/code/step02 main function
+// 입출력과 사칙연산
+func Answer() {
+	// 01. 행렬 덧셈
+	// q02738()
+
+	// 02. 최댓값
+	// q02566()
+
+	// 03. 색종이
+	// q02563()
+}
