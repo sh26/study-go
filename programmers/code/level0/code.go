@@ -1,6 +1,6 @@
 package code
 
-// Start is programmers/code.level0 main function
+// Answer is programmers/code/level0 main function
 func Answer() {
 	/* day01.go */
 	// q120802()

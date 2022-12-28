@@ -1,7 +1,7 @@
 package main
 
-import "baekjoon/code"
+import step01 "baekjoon/code/step01"
 
 func main() {
-	code.Start()
+	step01.Answer()
 }
