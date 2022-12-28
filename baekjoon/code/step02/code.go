@@ -2,7 +2,7 @@
 package code
 
 // Answer is baekjoon/code/step02 main function
-// 입출력과 사칙연산
+// 2차원 배열
 func Answer() {
 	// 01. 행렬 덧셈
 	// q02738()
