@@ -1,7 +1,7 @@
 // https://www.acmicpc.net/step/3
 package code
 
-// Answer is baekjoon/code/step02 main function
+// Answer is baekjoon/code/step03 main function
 // 반복문
 func Answer() {
 	// 01. 구구단
