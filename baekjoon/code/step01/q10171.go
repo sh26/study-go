@@ -11,7 +11,7 @@
 // (  /  )
 //  \(__)|
 
-package code
+package step01
 
 import "fmt"
 

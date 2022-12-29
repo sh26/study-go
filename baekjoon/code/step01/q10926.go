@@ -14,7 +14,7 @@
 // # 예제
 // [joonas] → [joonas??!], [baekjoon], [baekjoon??!]
 
-package code
+package step01
 
 import (
 	"bufio"

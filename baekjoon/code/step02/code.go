@@ -1,5 +1,6 @@
 // https://www.acmicpc.net/step/2
-package code
+
+package step02
 
 // Answer is baekjoon/code/step02 main function
 // 2차원 배열

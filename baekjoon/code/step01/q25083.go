@@ -13,7 +13,7 @@
 //       |
 //       |
 
-package code
+package step01
 
 import (
 	"bufio"

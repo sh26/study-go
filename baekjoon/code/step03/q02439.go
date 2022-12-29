@@ -11,7 +11,7 @@
 // # 예제
 // [5] →  [    *],[   **],[  ***],[ ****],[*****]
 
-package code
+package step03
 
 import (
 	"bufio"

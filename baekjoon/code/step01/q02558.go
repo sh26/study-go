@@ -12,7 +12,7 @@
 // # 예제
 // [472,385] → [2360,3776,1416,181720]
 
-package code
+package step01
 
 import (
 	"fmt"

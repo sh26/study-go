@@ -1,11 +1,11 @@
 // https://www.acmicpc.net/step/4
-package code
+package step04
 
 // Answer is baekjoon/code/step04 main function
 // 조건문
 func Answer() {
 	// 01. 두 수 비교하기
-	// q01330()
+	q01330()
 
 	// 02. 시험 성적
 	// q09498()

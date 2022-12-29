@@ -1,5 +1,5 @@
 // https://www.acmicpc.net/step/3
-package code
+package step03
 
 // Answer is baekjoon/code/step03 main function
 // 반복문

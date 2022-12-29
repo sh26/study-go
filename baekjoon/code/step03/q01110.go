@@ -25,7 +25,7 @@
 // [0]  → [1]
 // [71] → [12]
 
-package code
+package step03
 
 import (
 	"bufio"

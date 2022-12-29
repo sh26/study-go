@@ -14,7 +14,7 @@
 // # 예제
 // [2541] → [1998]
 
-package code
+package step01
 
 import (
 	"bufio"

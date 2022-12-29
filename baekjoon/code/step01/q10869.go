@@ -11,7 +11,7 @@
 // # 예제 (, : 줄 넘김)
 // [7 3] → [10,4,21,2,1]
 
-package code
+package step01
 
 import (
 	"fmt"

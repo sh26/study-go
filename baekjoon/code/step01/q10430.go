@@ -13,7 +13,7 @@
 // # 예제
 // [5 8 4] → [1,1,0,0]
 
-package code
+package step01
 
 import "fmt"
 

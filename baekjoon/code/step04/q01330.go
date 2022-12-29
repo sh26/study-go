@@ -1,6 +1,6 @@
 // https://www.acmicpc.net/problem/1330
 
-package code
+package step04
 
 func q01330() {
 

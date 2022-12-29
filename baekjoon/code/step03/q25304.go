@@ -25,7 +25,7 @@
 // # 예제
 // [260000],[4],[20000 5],[30000 2],[10000 6],[5000 8] → [Yes]
 
-package code
+package step03
 
 import (
 	"bufio"

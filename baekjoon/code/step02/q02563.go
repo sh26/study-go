@@ -19,7 +19,7 @@
 // # 예제
 // [3],[3 7],[15 7],[5 2] → [260]
 
-package code
+package step02
 
 import (
 	"bufio"

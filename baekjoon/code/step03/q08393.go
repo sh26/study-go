@@ -11,7 +11,7 @@
 // # 예제
 // [3] → [6]
 
-package code
+package step03
 
 import "fmt"
 

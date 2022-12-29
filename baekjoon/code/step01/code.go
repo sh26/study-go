@@ -1,5 +1,5 @@
 // https://www.acmicpc.net/step/1
-package code
+package step01
 
 // Answer is baekjoon/code/step01 main function
 // 입출력과 사칙연산
