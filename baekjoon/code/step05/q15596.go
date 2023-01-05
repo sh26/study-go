@@ -29,7 +29,9 @@ func q15596() {
 
 	sum := func(a []int) int {
 		r := 0
-		for _, n := range a { r += n }
+		for _, n := range a {
+			r += n
+		}
 		return r
 	}
 
