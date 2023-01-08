@@ -1,5 +1,5 @@
 // https://school.programmers.co.kr/learn/challenges/beginner
-package code
+package level0
 
 // Answer is programmers/code/level0 main function
 func Answer() {

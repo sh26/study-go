@@ -1,7 +1,7 @@
 package main
 
-import level0 "programmers/code/level0"
+import "programmers/code"
 
-func main() {
-	level0.Answer()
-}
+const level = 1
+
+func main() { code.Run(level) }
