@@ -12,7 +12,6 @@ import (
 func q120880() {
 
 	solution := func(numlist []int, n int) (nearlist []int) {
-
 		sort.Ints(numlist)
 
 		numsort := map[int]interface{}{}
@@ -52,7 +51,6 @@ func q120880() {
 func q120882() {
 
 	solution := func(score ...[]int) (ranks []int) {
-
 		aves := []float64{}
 		rank := make(map[float64]int)
 
@@ -117,7 +115,6 @@ func q120956() {
 func q120883() {
 
 	solution := func(id_pw []string, db ...[]string) string {
-
 		for _, user := range db {
 			if id_pw[0] == user[0] {
 				if id_pw[1] == user[1] {

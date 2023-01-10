@@ -22,7 +22,6 @@ func q120826() {
 func q120829() {
 
 	solution := func(angle int) int {
-
 		if 0 < angle && angle < 90 {
 			return 1
 		} else if angle == 90 {

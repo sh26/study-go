@@ -24,7 +24,6 @@ func q120837() {
 func q120838() {
 
 	solution := func(letter string) string {
-
 		morse := map[string]string{".-": "a", "-...": "b", "-.-.": "c", "-..": "d", ".": "e", "..-.": "f",
 			"--.": "g", "....": "h", "..": "i", ".---": "j", "-.-": "k", ".-..": "l",
 			"--": "m", "-.": "n", "---": "o", ".--.": "p", "--.-": "q", ".-.": "r",
@@ -73,7 +72,6 @@ func q120839() {
 func q120840() {
 
 	solution := func(balls int, share int) int {
-
 		fact := func(n int) float64 {
 			var v float64 = 1
 			for i := 1; i <= n; i++ {

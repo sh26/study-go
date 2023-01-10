@@ -112,7 +112,6 @@ func q120868() {
 func q120869() {
 
 	solution := func(spell []string, dic []string) int {
-
 		check := func(word string) (pass bool) { // 검토
 			pass = true
 			for _, v := range spell {

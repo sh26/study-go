@@ -57,7 +57,6 @@ func q120816() {
 func q120817() {
 
 	solution := func(numbers ...int) float64 {
-
 		total := 0
 
 		for _, v := range numbers {

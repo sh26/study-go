@@ -83,7 +83,6 @@ func q120835() {
 func q120836() {
 
 	solution := func(n int) (cnt int) {
-
 		sqrt := math.Sqrt(float64(n))
 		sqrt_round := math.Round(sqrt)
 

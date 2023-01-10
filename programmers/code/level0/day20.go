@@ -41,7 +41,6 @@ func q120860() {
 func q120861() {
 
 	solution := func(keyinput []string, board []int) []int {
-
 		position, width, height := []int{0, 0}, board[0]/2, board[1]/2
 
 		for _, v := range keyinput {
@@ -86,7 +85,6 @@ func q120862() {
 func q120863() {
 
 	solution := func(polynomial string) string {
-
 		x, n := 0, 0
 
 		for _, v := range strings.Split(polynomial, " + ") {

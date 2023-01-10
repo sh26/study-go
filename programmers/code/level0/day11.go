@@ -28,7 +28,6 @@ func q120845() {
 func q120846() {
 
 	solution := func(n int) (cnt int) {
-
 		for i := 4; i <= n; i += 2 {
 			cnt++
 		}

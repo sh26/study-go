@@ -12,11 +12,8 @@ import (
 func q120853() {
 
 	solution := func(s string) (sum int) {
-
 		num_list := []int{}
-
 		for _, v := range strings.Split(s, " ") {
-
 			if v == "Z" {
 				if len(num_list) <= 1 {
 					num_list = []int{}

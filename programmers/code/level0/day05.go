@@ -7,7 +7,6 @@ import "fmt"
 func q120818() {
 
 	solution := func(price int) int {
-
 		if price >= 500000 {
 			price = price * 80
 		} else if price >= 300000 {
@@ -54,7 +53,6 @@ func q120820() {
 func q120821() {
 
 	solution := func(num_list ...int) []int {
-
 		for i, j := 0, len(num_list)-1; i < j; i, j = i+1, j-1 {
 			num_list[i], num_list[j] = num_list[j], num_list[i]
 		}

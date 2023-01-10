@@ -35,7 +35,6 @@ func q120811() {
 func q120812() {
 
 	solution := func(array ...int) int {
-
 		count := map[int]int{}
 
 		max, high := -1, -1

@@ -35,7 +35,6 @@ func q120922() {
 func q120923() {
 
 	solution := func(num int, total int) (num_list []int) {
-
 		center, cnt := total/num, 1
 
 		for i := 1; i <= num/2; i, cnt = i+1, cnt+1 {

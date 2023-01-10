@@ -63,7 +63,6 @@ func q120902() {
 func q120903() {
 
 	solution := func(s1 []string, s2 []string) (cnt int) {
-
 		full := " " + strings.Join(s2, " ") + " "
 
 		for _, str := range s1 {

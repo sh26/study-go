@@ -34,7 +34,6 @@ func q120871() {
 func q120875() {
 
 	solution := func(dots ...[]int) int {
-
 		slope := func(dot1, dot2 []int) float64 {
 			return float64(dot1[1]-dot2[1]) / float64(dot1[0]-dot2[0])
 		}
@@ -55,7 +54,6 @@ func q120875() {
 func q120876() {
 
 	solution := func(lines ...[]int) (cnt int) {
-
 		elements := make([]int, 201)
 
 		stamp := func(element int) {
@@ -87,7 +85,6 @@ func q120876() {
 func q120878() {
 
 	solution := func(a int, b int) int {
-
 		gcd := func(n1, n2 int) int {
 			for n1 > 0 {
 				n1, n2 = n2%n1, n1

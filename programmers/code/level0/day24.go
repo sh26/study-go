@@ -28,7 +28,6 @@ func q120884() {
 func q120885() {
 
 	solution := func(bin1 string, bin2 string) string {
-
 		bin1num, bin2num := func() int64 { tmp, _ := strconv.ParseInt(bin1, 2, 64); return tmp }(), func() int64 { tmp, _ := strconv.ParseInt(bin2, 2, 64); return tmp }()
 
 		return strconv.FormatInt(bin1num+bin2num, 2)

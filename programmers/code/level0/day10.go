@@ -29,7 +29,6 @@ func q120841() {
 func q120842() {
 
 	solution := func(num_list []int, n int) (num_split [][]int) {
-
 		for i := 0; i < len(num_list); i += n {
 			num_split = append(num_split, func() (list []int) {
 				for j := i; j < i+n; j++ {

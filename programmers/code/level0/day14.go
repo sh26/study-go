@@ -53,7 +53,6 @@ func q120891() {
 func q120892() {
 
 	solution := func(cipher string, code int) (word string) {
-
 		for idx := code; idx <= len(cipher); idx += code {
 			word += string(cipher[idx-1])
 		}
