@@ -18,7 +18,7 @@ import "fmt"
 func q76501() {
 
 	solution := func(absolutes []int, signs []bool) (sum int) {
-		for idx, _ := range absolutes {
+		for idx := range absolutes {
 			if signs[idx] {
 				sum += absolutes[idx]
 			} else {
