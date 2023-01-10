@@ -17,7 +17,7 @@ func q12947() {
 	solution := func(x int) bool {
 		digit := 0
 		for n := x; n > 0; digit, n = digit+(n%10), n/10 { }
-		if x%digit != 0 { return false }; return true
+		return x%digit == 0
 	}
 
 	fmt.Println(solution(10)) // true
