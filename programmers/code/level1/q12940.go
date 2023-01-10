@@ -17,7 +17,7 @@ func q12940() {
 
 	solution := func(n int, m int) []int {
 		a, b := n, m
-		for ; a > 0; { a, b = b%a, a } // gcd, lcm
+		for a > 0 { a, b = b%a, a } // gcd, lcm
 		return []int{b, n * m / b}
 	}
 
