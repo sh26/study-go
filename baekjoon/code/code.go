@@ -6,6 +6,7 @@ import (
 	"baekjoon/code/step03"
 	"baekjoon/code/step04"
 	"baekjoon/code/step05"
+	"baekjoon/code/step06"
 )
 
 func Run(step int) {
@@ -20,5 +21,7 @@ func Run(step int) {
 		step04.Answer()
 	case 5:
 		step05.Answer()
+	case 6:
+		step06.Answer()
 	}
 }

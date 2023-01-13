@@ -5,6 +5,6 @@ import (
 )
 
 // current step
-const step = 5
+const step = 6
 
 func main() { code.Run(step) }
