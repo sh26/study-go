@@ -86,6 +86,3 @@ func step06() {
 	q08958() // 08. OX퀴즈
 	q04344() // 09. 평균은 넘겠지
 }
-
-// q08393 is a function to solve the problem "합".
-// source: https://www.acmicpc.net/problem/8393
