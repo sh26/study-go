@@ -12,6 +12,7 @@ import (
 func q10810() {
 	r, w := bufio.NewScanner(os.Stdin), bufio.NewWriter(os.Stdout)
 	r.Split(bufio.ScanWords)
+	defer w.Flush()
 	r.Scan()
 	N, _ := strconv.Atoi(r.Text())
 	r.Scan()

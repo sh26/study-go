@@ -12,9 +12,9 @@ import (
 func q25314() {
 	r, w := bufio.NewScanner(os.Stdin), bufio.NewWriter(os.Stdout)
 	r.Split(bufio.ScanWords)
+	defer w.Flush()
 	r.Scan()
 	num, _ := strconv.Atoi(r.Text())
-	defer w.Flush()
 
 	longCount := num / 4
 	result := "long "
